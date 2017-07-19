@@ -1,8 +1,14 @@
 #!/usr/bin/env sh
-# 
-# @Author: Walter Riviera
+# Authors
+# @Author: Wen Wei, defined the list of steps of the whole install process
+# @Author: Tony Wang, defined the list of steps of the whole install process
+# @Author: Walter Riviera, wrote this wizard
+#
+# Contacts:
+# @email: wei.wen@intel.com
+# @email: tony.z.wang@intel.com
 # @email: walter.riviera@intel.com
-# @Author_info: DCG Sales - AI Technical Solution Specialist
+# @Authors_info: DCG Sales - AI Technical Solution Specialists
 # @date: 1st release 14/07/2017
 # 
 # 
