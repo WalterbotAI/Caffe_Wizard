@@ -337,7 +337,7 @@ echo "PYTHON_LIB should have:= /usr/lib64" >> install_log.txt
 
 
 # Get ready to buld it!
-if [ "$NODE" == "MULTI" ];
+if [ "$mode" == "MULTI" ];
 then
 	# Replacing INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include
 	#check_cmd `sed -i -e 's|INCLUDE_DIRS := \$(PYTHON_INCLUDE) /usr/local/include|INCLUDE_DIRS := \$(PYTHON_INCLUDE) /usr/local/include /usr/include/opencv /opt/intel/mlsl_2017.0.006/intel64/include|g' mfw`
